@@ -1,0 +1,56 @@
+        //todo: dobavqne i premahvane na 4ovek v ekip
+        
+
+     //   [HttpPost, ActionName("Show")]
+      //  [ValidateAntiForgeryToken]
+        /* public async Task<object> Show(int id)
+         {
+             var team = await _context.Team.FromSql("SELECT * FROM Te");
+             _context.Team.SelectMany<Team>;
+             await _context.SaveChangesAsync();
+             return RedirectToAction(nameof(Index));
+             var team = await _context.Team.FindAsync(id);
+             _context.Team.Show(team);
+             await _context.SaveChangesAsync();
+             return RedirectToAction(nameof(Index));
+         }*/
+     /*   public IActionResult ShowTeamMembers(int id)
+        {
+
+            //you can search database with person id 
+            Team t = new Team();
+            t.Id = 3232312;
+            t.Name = "FirstName";
+            t.Project = "LastName";
+            t.TeamLead = "yogurt";
+
+            Dictionary<string, string> personDetails = new Dictionary<string, string>();
+
+            foreach (PropertyInfo prop in t.GetType().GetProperties())
+            {
+
+                var propName = prop.Name;
+                var propValue = prop.GetValue(t, null);
+                personDetails.Add(propName.ToString(), propValue.ToString());
+
+            }
+            ViewBag.personDetails = personDetails;
+            return View();
+        }*/
+
+
+
+
+        //  public async Task<IActionResult> MembersFinder(int? id)
+       /* private void AddMemberToTeam (string bindString, string NewMember)
+        {
+            try
+            {
+                ApplicationUser.Team()
+            }
+        }*/
+        
+        public void AddTeamMember()
+        {
+            
+        }
